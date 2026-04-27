@@ -12,11 +12,11 @@ The task involved performing a read-only vulnerability assessment on a publicly 
 
 The assessment was conducted using passive reconnaissance techniques, meaning no exploitation or intrusive attacks were performed.
 
-🎯 Target Website
+ Target Website
 Application: demo.testfire.net
 IP Address: 65.61.137.117
 Purpose: Publicly available vulnerable banking application used for security testing and education
-🛠️ Tools Used
+ Tools Used
 1️⃣ Nmap
 
 Used for basic port scanning and service detection.
@@ -50,7 +50,7 @@ Evidence saved as:
 
 evidence/whatweb.txt
 evidence/whatweb.png
-3️⃣ Snyk Security Headers Scanner
+3️⃣SYNK Security Headers Scanner
 
 Used to analyze HTTP security headers of the web application.
 
@@ -80,7 +80,7 @@ security_headers_report.txt
 
 These files document the findings gathered during the assessment.
 
-🔍 Key Findings Summary
+KEY FINDINGS SUMMARY
 Missing Security Headers
 
 Several recommended HTTP security headers were not configured:
@@ -145,3 +145,7 @@ Check screenshots and tool outputs used to identify vulnerabilities
 📚 References
 OWASP Web Security Testing Guide
 Sample vulnerability reports from GitHub (as suggested in the task)
+
+PROJECT STRUCTURE
+<img width="573" height="264" alt="image" src="https://github.com/user-attachments/assets/dc6abd8c-1c64-443e-a51e-6a374f0a307c" />
+
